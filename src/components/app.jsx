@@ -1,5 +1,7 @@
 import React from 'react';
 
+import CityList from '../containers/city_list';
+
 // TODO: remove this line and use Redux
 const cities = [
   { name: 'Paris', address: '16 Villa Gaudelet, 75011 Paris', slug: 'paris' },
