@@ -5,9 +5,11 @@ import ActiveCity from '../containers/active_city';
 
 const App = () => {
   return (
-    <div className="app">
-      <CityList />
-      <ActiveCity />
+    <div className="app container">
+      <div className="row">
+        <CityList />
+        <ActiveCity />
+      </div>
     </div>
   );
 };

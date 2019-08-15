@@ -13,8 +13,8 @@ class CityList extends Component {
 
   render() {
     return (
-      <div className="cities">
-        <ul className="list-group">
+      <div className="col-sm-4">
+        <ul className="list-group list-group--scroll">
           {this.props.cities.map((city) => {
             return <City city={city} key={city.name} />;
           })}
